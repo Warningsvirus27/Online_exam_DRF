@@ -11,6 +11,13 @@ seperate app handels their ccorresponding activities<br>
 <br>
 SQL-Lite database is used for the project<br>
 <br>
-CORS Module is integrated for making cross-origin requests to the backend<br>
-<br>
 both class-based and function-based views to handel requests<br>
+<br>
+CORS Module is integrated for making cross-origin requests to the backend<br>
+CSRF token verification is done at POST, PATCH, DELETE requests to validate user<br>
+proper verification and authentication is done at various stages<br>
+User Password is hashed by default django hashing algorithm<br>
+Exceptions are handeled at all level, and corresponding messages are returned along with respective status-code<br>
+<br>
+
+
